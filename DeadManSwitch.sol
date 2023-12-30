@@ -1,8 +1,8 @@
 pragma solidity ^0.8.0;
 
 contract AutoSendContract {
-    address public owner=0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
-    address public presetAddress=0xc79B3091023Aa511e4574861BECeB3A0B7462537;
+    address public owner;
+    address public presetAddress;
     uint256 public lastAliveBlock;
 
     modifier onlyOwner() {
